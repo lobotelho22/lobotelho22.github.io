@@ -34,13 +34,15 @@ h3 {
 }
 
 #foto-principal {
-    margin-top: -40px;
+    margin-top: -110px;
     text-align: center;
     z-index: 950;
 }
 
 #foto {
-
+    border-style: double;
+    border-color:#152828;
+    border-width: 3px;
     border-radius: 4%;
 }
 
