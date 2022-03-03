@@ -13,7 +13,7 @@ body {
     line-height: 160%;
 }
 
-h1 {
+h1.inicio {
     background-color: #008b8b;
     font-family: 'Eczar','serif';
     font-weight: 100;
@@ -21,11 +21,15 @@ h1 {
     letter-spacing: 8px;
     color: #cae3e3;
     text-align: center;
-    margin-top: -5px;
     padding: 20px;
-    padding-bottom: 60px;
     z-index: 900;
     width: 100%;
+}
+
+.apresentacao-foto {
+    display:inline-block;
+    /* margin-bottom: auto; */
+    /* height: 100%; */
 }
 
 h3 {
@@ -40,18 +44,32 @@ h3 {
     padding-bottom: 4px;
 }
 
-#foto-principal {
-    margin-top: -70px;
-    margin-bottom: -18px;
+/* #bloco-foto {
+    background-color: #003153;
+    
     text-align: center;
+    
+    border-radius: 4%;
+} */
+
+#foto-principal {
+    /* margin-top: -70px; */
+    /* margin-bottom: -18px; */
+    /* text-align: center; */
     z-index: 950;
+    
+
 }
 
 #foto {
-    /*border-style:solid;
-    border-color: whitesmoke;*/
-    border-width: 0.55em;
-    border-radius: 4%;
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-top: -4%;
+    margin-left: 3%;
+    border-radius: 3%;
+    background-color: #003153;
+    padding: 20px;
 }
 
 #bloco-principal {
@@ -102,4 +120,8 @@ h3.header-container{
 .link-container {
     /* background-color: aquamarine; */
     margin:auto;
+}
+
+#habilidades {
+    margin-top:30px;
 }
