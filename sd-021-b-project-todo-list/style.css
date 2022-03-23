@@ -1,0 +1,95 @@
+* {
+  margin: auto;
+}
+
+body {
+  background-color: rgb(213, 241, 229);
+}
+
+header {
+  font-size: 4em;
+  margin: 30px auto 40px;
+  text-align: center;
+  width: 350px;
+  color: rgb(44, 49, 47);
+  letter-spacing: 0.03em;
+  font-family: Arimo, sans-serif;
+}
+
+header em {
+  font-weight: 600;
+}
+
+main {
+  background-color: rgb(46, 134, 96);
+  width: 900px;
+  padding-top: 0;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 80px;
+  min-height: 280px;
+}
+
+p {
+  font-size: 1.6em;
+  line-height: 1.8em;
+  color: white;
+  font-weight: 400;
+  background-color: rgb(31, 97, 67);
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0 0;
+  font-family: Arimo, sans-serif;
+}
+
+input {
+  width: 600px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  height: 2em;
+  text-indent: 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+ol {
+  list-style-position: inside;
+  text-align: left;
+  text-indent: 3%;
+  padding-left: 0;
+}
+
+li {
+  background-color: white;
+  width: 680px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  display: flexbox;
+  border-radius: 4px;
+  font-family: Playfair Display, serif;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+footer {
+  font-family: Playfair Display, serif;
+  color: rgb(95, 116, 110);
+  margin-top: 10px;
+  margin-right: 17%;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: right;
+}
+
+footer a {
+  color: rgb(95, 116, 110);
+  font-weight: 600;
+}
+
+footer a:hover {
+  color: rgb(51, 70, 64);
+  font-weight: 600;
+  font-size: 1.05em;
+}
