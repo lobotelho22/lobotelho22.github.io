@@ -5,7 +5,7 @@
  <h2 align="center">Profile</h2>
 </p>
 
-### Hi there 👋 I'm [Anand K. Mainali](https://anandmainali.com.np)
+### Hi there 👋 I'm [Eduardo Santos](https://anandmainali.com.np)
 > Software Engineer at [SoftNEP](https://softnep.com)
 
 
